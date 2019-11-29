@@ -34,7 +34,7 @@ public class ExamenPSP_Ej1 extends Thread {
         h2.join();
         h3.join();
         
-        //Usamos join para que no se termine el Thread main
+        //Para que el hilo no termine usamos join
         System.out.println("Thread main terminated");
     }
 }
